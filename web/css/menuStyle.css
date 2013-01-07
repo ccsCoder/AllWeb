@@ -1,0 +1,53 @@
+body {
+	background-image:url('../images/dark_wood_2.jpg');
+	text-align:center;
+}
+
+.header {
+	color:white;
+	font-size:24pt;
+	font-family:cursive;
+	-webkit-text-shadow: 2px 2px gray;
+	-moz-text-shadow: 2px 2px gray;
+	-o-text-shadow: 2px 2px gray;
+	-ms-text-shadow: 2px 2px gray;
+	text-shadow: 2px 3px 2px gray;
+}
+#carousel {
+	margin-top:10%;
+	margin-left:28%;
+	
+	color:white;
+}
+
+#leftButton {
+	float:left;
+	min-height:350px;
+	min-width:10px;
+	background-color:lightgray;
+	/*margin-right:30px;*/
+}
+
+#rightButton {
+	float:left;
+	min-height:350px;
+	min-width:10px;
+	background-color:lightgray;
+}
+
+#carouselContent {
+	float:left;
+	border: 2px solid gray;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	min-width: 600px;
+	min-height:350px;
+	text-align:center;
+	color:white;
+}
+#carouselNavigator {
+	text-align:center;
+}
